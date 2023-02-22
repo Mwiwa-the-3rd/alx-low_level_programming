@@ -1,2 +1,14 @@
 #include main.h
-int _putchar(char c);
+int main(void)
+{
+	char *sh = "Main";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
+}
